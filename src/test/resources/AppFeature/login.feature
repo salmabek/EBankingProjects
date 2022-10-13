@@ -1,7 +1,7 @@
 
 Feature: Login page feature
 
-  Scenario: Accept All Cookies
+  Scenario Accept All Cookies
     Given user is on login page
     When User clicks on accepts all cookies
     Then Login page shows up

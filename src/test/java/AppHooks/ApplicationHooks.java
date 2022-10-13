@@ -19,7 +19,7 @@ public class ApplicationHooks {
     public void skip_scenario(Scenario scenario){
         System.out.println("Skipped scenario is :"+ scenario.getName());
         Assume.assumeTrue(false);
-
+        System.out.println("aze");
     }
     @Before(order = 1)
     public void getProperty(){
